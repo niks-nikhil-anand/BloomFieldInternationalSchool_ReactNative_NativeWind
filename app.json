@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "bloomfield",
-    "slug": "Bloomfield Interntional School",
+    "slug": "bloomfield-international-school",
     "description": "Bloomfield International School aims to be an institution of excellence where sound ethical values, character, wisdom, leadership, service and academic excellence are instilled in students.",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -36,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b3505ed6-06f5-4695-a8a6-3e7f2e907098"
+      }
     }
   }
 }

@@ -1,29 +1,15 @@
-import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import React from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { WebView } from "react-native-webview";
 
 export default function Home() {
   return (
-    <SafeAreaView style={styles.container}>
-      <View>
-        <Text style={styles.text}>HomePage</Text>
-        <Text style={styles.text}>HomePage</Text>
-        <Text style={styles.text}>HomePage</Text>
-        <Text style={styles.text}>HomePage</Text>
-        <Text style={styles.text}>HomePage</Text>
-        <Text className='text-2xl text-red-500 font-bold'>HomePage</Text>
-      </View>
+    <SafeAreaView className="flex-1 bg-white">
+      <WebView
+        source={{ uri: "https://bloomfield.nexterp.in/nlp/nlp/login" }}
+        className="flex-1"
+        startInLoadingState={true}
+      />
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
-  text: {
-    fontSize: 24,
-    color: 'black',
-  }
-});
