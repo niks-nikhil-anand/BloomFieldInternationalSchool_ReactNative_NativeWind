@@ -11,7 +11,7 @@ export default function Home() {
         <Text style={styles.text}>HomePage</Text>
         <Text style={styles.text}>HomePage</Text>
         <Text style={styles.text}>HomePage</Text>
-        <Text style={styles.text}>HomePage</Text>
+        <Text className='text-9xl text-red-500 font-bold'>HomePage</Text>
       </View>
     </SafeAreaView>
   );

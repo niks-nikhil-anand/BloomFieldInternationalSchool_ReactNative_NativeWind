@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons'; // You'll need to install this if not already
+import { Ionicons } from '@expo/vector-icons'; 
+
 
 export default function TabsLayout() {
   return (
